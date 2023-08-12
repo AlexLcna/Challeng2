@@ -38,6 +38,7 @@ public class Conversor extends JFrame {
 	public static void main(String[] args) {
 				
 		EventQueue.invokeLater(new Runnable() {
+			
 			public void run() {
 				try {
 					Conversor frame = new Conversor();
@@ -179,10 +180,10 @@ public class Conversor extends JFrame {
 		lblNewLabel_1.setBounds(10, 11, 77, 59);
 		contentPane.add(lblNewLabel_1);
 		
-		lblNewLabel_2 = new JLabel("by ALEX LICONA");
+		lblNewLabel_2 = new JLabel("Copyright Conversor by ALEX LICONA - 2023");
 		lblNewLabel_2.setForeground(new Color(0, 128, 0));
 		lblNewLabel_2.setFont(new Font("SansSerif", Font.BOLD | Font.ITALIC, 9));
-		lblNewLabel_2.setBounds(10, 335, 95, 14);
+		lblNewLabel_2.setBounds(10, 335, 221, 14);
 		contentPane.add(lblNewLabel_2);
 		
 				
